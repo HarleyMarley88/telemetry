@@ -9,4 +9,5 @@ CREATE TABLE IF NOT EXISTS tag_history_v2 (
     ts timestamp,
     value double,
     PRIMARY KEY ((tag_name, day), ts)
-);
+    
+) WITH CLUSTERING ORDER BY (ts DESC);

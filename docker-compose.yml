@@ -131,7 +131,9 @@ services:
       KAFKA_HOST: kafka:9092
       CASSANDRA_HOST: cassandra
     volumes:
-      - ./logs:/logs  
+      - ./logs:/logs 
+    ports:
+      - "8001:8001"   
 
   simulation:
     build: ./simulation

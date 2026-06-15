@@ -21,9 +21,14 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
+      - name: Build consumer image
+        run: docker build ./consumer
+
+      - name: Build app image
+        run: docker build ./app
+
+      - name: Build simulation image
+        run: docker build ./simulation  
 
       - name: Run tests
         run: |

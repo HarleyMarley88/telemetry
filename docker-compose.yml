@@ -23,10 +23,9 @@ services:
       KAFKA_HOST: kafka:9092
 
   consumer:
-    build: ./app
+    build: ./consumer
     container_name: kafka-consumer
-
-    command: python consumer.py
+    restart: always
 
     depends_on:
       - kafka

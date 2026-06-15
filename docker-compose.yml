@@ -22,6 +22,20 @@ services:
     environment:
       KAFKA_HOST: kafka:9092
 
+  consumer:
+    build: ./app
+    container_name: kafka-consumer
+
+    command: python consumer.py
+
+    depends_on:
+      - kafka
+      - cassandra
+
+    environment:
+      KAFKA_HOST: kafka:9092
+      CASSANDRA_HOST: cassandra
+
   cassandra:
     image: cassandra:4.1
     container_name: cassandra

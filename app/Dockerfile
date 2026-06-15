@@ -2,8 +2,9 @@ FROM python:3.12-slim
 
 WORKDIR /app
 
-COPY simulation.py .
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 
-RUN pip install kafka-python
+COPY . .
 
-CMD ["python", "simulation.py"]
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

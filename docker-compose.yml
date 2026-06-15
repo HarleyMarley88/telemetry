@@ -1,7 +1,7 @@
 services:
 
   app:
-    image: HarleyMarley88/telemetry-api:latest
+    image: harleymarley88/telemetry-api:latest
     container_name: telemetry-api
 
     ports:
@@ -16,11 +16,11 @@ services:
       - kafka
 
   simulation:
-  build: ./app
-  depends_on:
-    - kafka
-  environment:
-    KAFKA_HOST: kafka:9092
+    build: ./app
+    depends_on:
+      - kafka
+    environment:
+      KAFKA_HOST: kafka:9092
 
   cassandra:
     image: cassandra:4.1
@@ -45,11 +45,11 @@ services:
       KAFKA_PROCESS_ROLES: broker,controller
 
       KAFKA_LISTENERS: PLAINTEXT://:9092,CONTROLLER://:9093
-      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
 
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,CONTROLLER:PLAINTEXT
       KAFKA_CONTROLLER_LISTENER_NAMES: CONTROLLER
-      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@localhost:9093
+      KAFKA_CONTROLLER_QUORUM_VOTERS: 1@kafka:9093
 
       KAFKA_CLUSTER_ID: 5L6g3nShT-eMCtK--X86sw
 

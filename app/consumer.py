@@ -35,7 +35,7 @@ logger = logging.getLogger("telemetry")
 
 logger.info("Consumer started")
 
-cluster = Cluster(["localhost"])
+cluster = Cluster(["cassandra"])
 
 session = cluster.connect("demo")
 

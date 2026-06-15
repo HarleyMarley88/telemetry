@@ -67,6 +67,9 @@ services:
       GF_SECURITY_ADMIN_USER: admin
       GF_SECURITY_ADMIN_PASSWORD: admin
 
+    volumes:
+      - grafana-storage:/var/lib/grafana  
+
     depends_on:
       - loki
 
@@ -149,4 +152,5 @@ services:
       - ./logs:/logs  
 volumes:
   cassandra_data:
-  pgdata:      
+  pgdata:
+  grafana-storage:      

@@ -51,23 +51,20 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Build app
-        run: docker build ./app -t telemetry-api:latest
-
-      - name: Build consumer
-        run: docker build ./consumer -t telemetry-consumer:latest
-
-      - name: Build simulation
-        run: docker build ./simulation -t telemetry-simulation:latest
-
-      - name: Push app image
-        run: |
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest
+      - name: Build consumer image
+        run: docker build ./consumer -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest
 
       - name: Push consumer image
-        run: |
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest
+
+      - name: Build simulation image
+        run: docker build ./simulation -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest
 
       - name: Push simulation image
-        run: |
-          docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest  
+
+      - name: Build simulation image
+        run: docker build ./simulation -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest
+
+      - name: Push simulation image
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest  

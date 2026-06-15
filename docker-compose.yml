@@ -31,7 +31,17 @@ services:
       MAX_HEAP_SIZE: 512M
       HEAP_NEWSIZE: 128M
     volumes:
-    - cassandra_data:/var/lib/cassandra
+      - cassandra_data:/var/lib/cassandra
+
+  cassandra-init:
+    image: cassandra:4.1
+    depends_on:
+      - cassandra
+    volumes:
+      - ./init/cassandra.cql:/schema.cql
+    entrypoint: ["sh", "-c"]
+    command: >
+      "cqlsh cassandra -f /schema.cql"
 
   kafka:
     image: apache/kafka:latest

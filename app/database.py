@@ -1,10 +1,6 @@
 from cassandra.cluster import Cluster
-import os
 
-CASSANDRA_HOST = os.getenv(
-    "CASSANDRA_HOST",
-    "host.docker.internal"
-)
 
-cluster = Cluster([CASSANDRA_HOST])
+
+cluster = Cluster("cassandra")
 session = cluster.connect("demo")

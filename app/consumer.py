@@ -43,7 +43,7 @@ start_http_server(8001)
 
 consumer = KafkaConsumer(
     "telemetry",
-    bootstrap_servers="localhost:9092",
+    bootstrap_servers="kafka:9092",
     auto_offset_reset="latest",
     group_id="telemetry-group"
 )

@@ -1,4 +1,27 @@
 services:
+
+  app:
+    image: HarleyMarley88/telemetry-api:latest
+    container_name: telemetry-api
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      CASSANDRA_HOST: cassandra
+      KAFKA_HOST: kafka:9092
+
+    depends_on:
+      - cassandra
+      - kafka
+
+  simulation:
+  build: ./app
+  depends_on:
+    - kafka
+  environment:
+    KAFKA_HOST: kafka:9092
+
   cassandra:
     image: cassandra:4.1
     container_name: cassandra

@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+cassandra-driver
+kafka-python
+prometheus-client

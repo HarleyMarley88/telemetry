@@ -11,7 +11,7 @@ import threading
 import time
 
 logging.basicConfig(
-    filename="../logs/consumer.log",
+    filename="/logs/consumer.log",
     level=logging.INFO,
     format="%(asctime)s %(levelname)s %(message)s",
     force=True

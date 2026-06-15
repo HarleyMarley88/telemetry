@@ -1,34 +1,6 @@
 services:
 
-  app:
-    build: ./app
-    container_name: telemetry-api
-    depends_on:
-      - kafka
-      - cassandra
-    environment:
-      KAFKA_HOST: kafka:9092
-      CASSANDRA_HOST: cassandra
-    ports:
-      - "8000:8000"
-
-  consumer:
-    build: ./consumer
-    container_name: kafka-consumer
-    depends_on:
-      - kafka
-      - cassandra
-    environment:
-      KAFKA_HOST: kafka:9092
-      CASSANDRA_HOST: cassandra
-
-  simulation:
-    build: ./simulation
-    container_name: kafka-simulation
-    depends_on:
-      - kafka
-    environment:
-      KAFKA_HOST: kafka:9092
+  
 
   cassandra:
     image: cassandra:4.1
@@ -135,6 +107,41 @@ services:
     volumes:
       - ./observability/prometheus.yml:/etc/prometheus/prometheus.yml
 
+  app:
+    build: ./app
+    container_name: telemetry-api
+    depends_on:
+      - kafka
+      - cassandra
+    environment:
+      KAFKA_HOST: kafka:9092
+      CASSANDRA_HOST: cassandra
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./logs:/logs  
+
+  consumer:
+    build: ./consumer
+    container_name: kafka-consumer
+    depends_on:
+      - kafka
+      - cassandra
+    environment:
+      KAFKA_HOST: kafka:9092
+      CASSANDRA_HOST: cassandra
+    volumes:
+      - ./logs:/logs  
+
+  simulation:
+    build: ./simulation
+    container_name: kafka-simulation
+    depends_on:
+      - kafka
+    environment:
+      KAFKA_HOST: kafka:9092
+    volumes:
+      - ./logs:/logs  
 volumes:
   cassandra_data:
   pgdata:      

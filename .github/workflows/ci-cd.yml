@@ -63,8 +63,8 @@ jobs:
       - name: Push simulation image
         run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest  
 
-      - name: Build simulation image
-        run: docker build ./simulation -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest
+      - name: Build app image
+        run: docker build ./app -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest
 
-      - name: Push simulation image
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest  
+      - name: Push app image
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest  

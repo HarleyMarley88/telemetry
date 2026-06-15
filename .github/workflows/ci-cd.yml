@@ -68,3 +68,6 @@ jobs:
 
       - name: Push app image
         run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest  
+
+      - name: Validate compose
+        run: docker compose config  

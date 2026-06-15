@@ -1,0 +1,2 @@
+./gitpush.sh - гит коммит и пуш
+docker compose pull - добавить себе измененные 

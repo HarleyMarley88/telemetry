@@ -109,6 +109,7 @@ services:
 
   app:
     build: ./app
+    image: harleymarley88/telemetry-api:latest
     container_name: telemetry-api
     depends_on:
       - kafka
@@ -123,6 +124,7 @@ services:
 
   consumer:
     build: ./consumer
+    image: harleymarley88/telemetry-consumer:latest
     container_name: kafka-consumer
     depends_on:
       - kafka
@@ -137,6 +139,7 @@ services:
 
   simulation:
     build: ./simulation
+    image: harleymarley88/telemetry-simulation:latest
     container_name: kafka-simulation
     depends_on:
       - kafka

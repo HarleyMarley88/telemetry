@@ -1,4 +1,12 @@
 from cassandra.cluster import Cluster
 
-cluster = Cluster(["cassandra"])
-session = cluster.connect("demo")
+session = None
+
+def get_session():
+    global session
+
+    if session is None:
+        cluster = Cluster(["cassandra"])
+        session = cluster.connect()
+
+    return session

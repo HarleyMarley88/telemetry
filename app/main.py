@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from datetime import datetime
 
-from database import session
+from database import get_session
 
 app = FastAPI()
 
@@ -17,7 +17,7 @@ def create_tag_value(tag_name: str, value: float):
 
     day = now.strftime("%Y-%m-%d")
 
-    session.execute("INSERT INTO tag_history_v2 (tag_name,day,ts,value) VALUES (%s, %s,%s,%s)",
+    get_session().execute("INSERT INTO tag_history_v2 (tag_name,day,ts,value) VALUES (%s, %s,%s,%s)",
         (tag_name,day,now,value)
     )
 
@@ -32,7 +32,7 @@ def get_tag_history(tag_name: str):
 
     today = datetime.now().strftime("%Y-%m-%d")
 
-    rows = session.execute("""SELECT * FROM tag_history_v2 where tag_name = %s and day = %s""", (tag_name,today))
+    rows = get_session().execute("""SELECT * FROM tag_history_v2 where tag_name = %s and day = %s""", (tag_name,today))
 
     result = []
 
@@ -44,11 +44,11 @@ def get_tag_history(tag_name: str):
     return result
 
 @app.get("/tags/{tag_name}/latest")
-def get_tag_history(tag_name: str):
+def get_latest_tag_history(tag_name: str):
 
     today = datetime.now().strftime("%Y-%m-%d")
 
-    rows = session.execute("""SELECT * FROM tag_history_v2 where tag_name = %s and day = %s limit 10""", (tag_name,today))
+    rows = get_session().execute("""SELECT * FROM tag_history_v2 where tag_name = %s and day = %s limit 10""", (tag_name,today))
 
     result = []
 
@@ -57,5 +57,11 @@ def get_tag_history(tag_name: str):
             "timestamp": row.ts,
             "value": row.value
         })
-    return result    
+    return result
+
+@app.get("/health")
+def health():
+    return {
+        "status": "ok"
+    }    
             

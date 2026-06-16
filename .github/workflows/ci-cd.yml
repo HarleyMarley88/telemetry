@@ -21,6 +21,17 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        run: |
+          cd app
+          pip install -r requirements.txt
+      
+
+      - name: Run tests
+        run: |
+          cd app
+          pytest tests/
+
       - name: Build consumer image
         run: docker build ./consumer
 
@@ -30,9 +41,6 @@ jobs:
       - name: Build simulation image
         run: docker build ./simulation  
 
-      - name: Run tests
-        run: |
-          echo "No tests yet"  # позже заменим на pytest
 
   build-and-push:
 

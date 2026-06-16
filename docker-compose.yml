@@ -111,7 +111,6 @@ services:
       - ./observability/prometheus.yml:/etc/prometheus/prometheus.yml
 
   app:
-    build: ./app
     image: harleymarley88/telemetry-api:latest
     container_name: telemetry-api
     depends_on:
@@ -126,7 +125,6 @@ services:
       - ./logs:/logs  
 
   consumer:
-    build: ./consumer
     image: harleymarley88/telemetry-consumer:latest
     container_name: kafka-consumer
     depends_on:
@@ -141,7 +139,6 @@ services:
       - "8001:8001"   
 
   simulation:
-    build: ./simulation
     image: harleymarley88/telemetry-simulation:latest
     container_name: kafka-simulation
     depends_on:

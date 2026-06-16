@@ -23,9 +23,9 @@ logger = logging.getLogger("simulation")
 TAG_NAME = "reactor_temp"
 
 while True:
-    ts_now = now.isoformat()
     now = datetime.now()
-    day = ts.strftime("%Y-%m-%d")
+    ts_now = now.isoformat()
+    day = ts_now.strftime("%Y-%m-%d")
     value = round(
         random.uniform(70, 80),
         2

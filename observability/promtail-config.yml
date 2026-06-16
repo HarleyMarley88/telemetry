@@ -30,4 +30,28 @@ scrape_configs:
             tag_name:
             value:
             status:
-            source:      
+            source:
+
+
+  - job_name: simulation
+
+    static_configs:
+
+      - targets:
+          - localhost
+
+        labels:
+          job: simulation
+
+          host: local
+
+          __path__: /logs/*.log
+
+    pipeline_stages:
+      - json:
+          expressions:
+            event:
+            tag_name:
+            value:
+            status:
+            source:                

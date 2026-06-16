@@ -6318,3 +6318,1104 @@ cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'172.18
 2026-06-16 11:32:08,435 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.66, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:08.431193"}
 2026-06-16 11:32:13,542 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.74, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:13.537679"}
 2026-06-16 11:32:18,545 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.52, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:18.540103"}
+2026-06-16 11:32:23,546 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.87, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:23.542359"}
+2026-06-16 11:32:28,549 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.7, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:28.544440"}
+2026-06-16 11:32:33,550 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.49, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:33.546444"}
+2026-06-16 11:32:38,553 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.51, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:38.548574"}
+2026-06-16 11:32:43,660 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.86, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:43.655860"}
+2026-06-16 11:32:48,662 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.51, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:48.658077"}
+2026-06-16 11:32:53,665 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.17, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:53.660149"}
+2026-06-16 11:32:58,666 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.66, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:32:58.662220"}
+2026-06-16 11:33:03,668 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.88, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:03.664308"}
+2026-06-16 11:33:08,670 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.15, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:08.666371"}
+2026-06-16 11:33:13,779 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.93, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:13.774457"}
+2026-06-16 11:33:18,782 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.23, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:18.777365"}
+2026-06-16 11:33:23,784 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.31, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:23.779361"}
+2026-06-16 11:33:28,786 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.46, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:28.781447"}
+2026-06-16 11:33:33,789 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.7, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:33.783574"}
+2026-06-16 11:33:38,790 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.15, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:38.785771"}
+2026-06-16 11:33:43,895 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.97, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:43.889674"}
+2026-06-16 11:33:48,896 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.72, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:48.891839"}
+2026-06-16 11:33:53,900 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.67, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:53.893971"}
+2026-06-16 11:33:58,901 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.65, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:33:58.896438"}
+2026-06-16 11:34:03,904 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.95, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:03.898587"}
+2026-06-16 11:34:08,906 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:08.901415"}
+2026-06-16 11:34:14,029 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.39, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:14.025176"}
+2026-06-16 11:34:19,032 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.93, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:19.027690"}
+2026-06-16 11:34:24,034 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.96, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:24.030296"}
+2026-06-16 11:34:29,036 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.96, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:29.032389"}
+2026-06-16 11:34:34,038 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.35, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:34.034395"}
+2026-06-16 11:34:39,041 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.72, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:39.036305"}
+2026-06-16 11:34:44,154 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.53, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:44.150065"}
+2026-06-16 11:34:49,157 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.9, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:49.152555"}
+2026-06-16 11:34:54,159 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.67, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:54.154735"}
+2026-06-16 11:34:55,531 INFO Metadata refresh (node_id=1)
+2026-06-16 11:34:55,665 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 1)
+2026-06-16 11:34:59,161 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.5, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:34:59.156976"}
+2026-06-16 11:35:04,163 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.8, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:04.159036"}
+2026-06-16 11:35:09,165 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.68, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:09.161182"}
+2026-06-16 11:35:14,271 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.16, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:14.266490"}
+2026-06-16 11:35:19,273 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.4, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:19.269078"}
+2026-06-16 11:35:24,295 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.11, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:24.271258"}
+2026-06-16 11:35:29,277 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.01, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:29.273214"}
+2026-06-16 11:35:34,279 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.88, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:34.275169"}
+2026-06-16 11:35:39,282 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.87, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:39.277426"}
+2026-06-16 11:35:44,391 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.5, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:44.387101"}
+2026-06-16 11:35:49,393 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.63, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:49.389105"}
+2026-06-16 11:35:54,395 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.48, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:54.391129"}
+2026-06-16 11:35:59,397 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.12, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:35:59.393219"}
+2026-06-16 11:36:04,399 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.2, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:04.395228"}
+2026-06-16 11:36:09,401 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.9, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:09.397173"}
+2026-06-16 11:36:14,524 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.54, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:14.519355"}
+2026-06-16 11:36:19,525 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.57, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:19.521628"}
+2026-06-16 11:36:24,528 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.87, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:24.523529"}
+2026-06-16 11:36:29,529 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.27, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:29.525679"}
+2026-06-16 11:36:34,531 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.49, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:34.527779"}
+2026-06-16 11:36:39,533 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.48, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:39.529595"}
+2026-06-16 11:36:44,660 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.7, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:44.656153"}
+2026-06-16 11:36:49,662 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.25, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:49.658284"}
+2026-06-16 11:36:54,664 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.9, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:54.660419"}
+2026-06-16 11:36:59,666 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.15, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:36:59.662405"}
+2026-06-16 11:37:04,668 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.52, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:04.664351"}
+2026-06-16 11:37:09,670 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.5, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:09.666448"}
+2026-06-16 11:37:14,782 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.23, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:14.777119"}
+2026-06-16 11:37:19,784 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.9, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:19.779724"}
+2026-06-16 11:37:24,786 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.45, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:24.781711"}
+2026-06-16 11:37:29,788 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.4, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:29.784018"}
+2026-06-16 11:37:34,790 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.73, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:34.786055"}
+2026-06-16 11:37:39,792 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.82, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:39.788197"}
+2026-06-16 11:37:44,903 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.36, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:44.898930"}
+2026-06-16 11:37:49,906 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.36, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:49.901422"}
+2026-06-16 11:37:54,908 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:54.903615"}
+2026-06-16 11:37:59,910 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.29, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:37:59.905905"}
+2026-06-16 11:38:04,912 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.24, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:04.908019"}
+2026-06-16 11:38:09,914 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.24, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:09.910298"}
+2026-06-16 11:38:15,028 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.09, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:15.024041"}
+2026-06-16 11:38:20,030 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.4, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:20.026195"}
+2026-06-16 11:38:25,032 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.88, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:25.028341"}
+2026-06-16 11:38:30,034 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.1, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:30.030286"}
+2026-06-16 11:38:35,037 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.09, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:35.032356"}
+2026-06-16 11:38:40,038 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:40.034516"}
+2026-06-16 11:38:45,160 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.1, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:45.156306"}
+2026-06-16 11:38:50,163 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.44, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:50.158582"}
+2026-06-16 11:38:55,165 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.26, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:38:55.160710"}
+2026-06-16 11:39:00,167 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.76, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:00.162649"}
+2026-06-16 11:39:05,169 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.16, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:05.164731"}
+2026-06-16 11:39:10,171 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:10.166739"}
+2026-06-16 11:39:15,283 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.25, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:15.278960"}
+2026-06-16 11:39:20,285 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.86, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:20.281047"}
+2026-06-16 11:39:25,287 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.46, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:25.283017"}
+2026-06-16 11:39:30,289 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.67, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:30.284896"}
+2026-06-16 11:39:35,291 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.76, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:35.286840"}
+2026-06-16 11:39:40,293 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.46, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:40.288884"}
+2026-06-16 11:39:45,406 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.63, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:45.401419"}
+2026-06-16 11:39:50,408 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.5, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:50.403497"}
+2026-06-16 11:39:55,410 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.31, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:39:55.405696"}
+2026-06-16 11:39:56,789 INFO Metadata refresh (node_id=1)
+2026-06-16 11:39:56,917 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 1)
+2026-06-16 11:40:00,412 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.57, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:00.407785"}
+2026-06-16 11:40:05,414 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.57, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:05.410129"}
+2026-06-16 11:40:10,416 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.12, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:10.412065"}
+2026-06-16 11:40:15,533 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.97, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:15.528733"}
+2026-06-16 11:40:20,535 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.4, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:20.530956"}
+2026-06-16 11:40:25,537 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.64, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:25.532946"}
+2026-06-16 11:40:30,539 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.23, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:30.534940"}
+2026-06-16 11:40:35,541 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.49, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:35.536975"}
+2026-06-16 11:40:40,543 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.48, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:40.539072"}
+2026-06-16 11:40:45,670 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.0, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:45.665528"}
+2026-06-16 11:40:50,671 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.83, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:50.667582"}
+2026-06-16 11:40:55,673 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.61, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:40:55.669609"}
+2026-06-16 11:41:00,675 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.54, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:00.671555"}
+2026-06-16 11:41:05,678 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.44, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:05.673538"}
+2026-06-16 11:41:10,679 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.68, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:10.675772"}
+2026-06-16 11:41:15,791 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.61, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:15.786820"}
+2026-06-16 11:41:20,793 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.46, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:20.788922"}
+2026-06-16 11:41:25,795 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.88, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:25.791088"}
+2026-06-16 11:41:30,797 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.79, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:30.793123"}
+2026-06-16 11:41:35,799 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.0, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:35.795243"}
+2026-06-16 11:41:40,801 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.44, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:40.797330"}
+2026-06-16 11:41:45,915 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.63, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:45.911669"}
+2026-06-16 11:41:50,918 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.12, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:50.913815"}
+2026-06-16 11:41:55,920 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.87, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:41:55.915913"}
+2026-06-16 11:42:00,922 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.52, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:00.917847"}
+2026-06-16 11:42:05,923 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.93, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:05.919723"}
+2026-06-16 11:42:10,925 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.47, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:10.921641"}
+2026-06-16 11:42:16,039 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.93, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:16.035100"}
+2026-06-16 11:42:21,041 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.74, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:21.037354"}
+2026-06-16 11:42:26,043 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.81, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:26.039266"}
+2026-06-16 11:42:31,045 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.12, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:31.041429"}
+2026-06-16 11:42:36,047 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.65, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:36.043544"}
+2026-06-16 11:42:41,049 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.16, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:41.045555"}
+2026-06-16 11:42:46,171 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.59, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:46.167424"}
+2026-06-16 11:42:51,173 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.72, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:51.169557"}
+2026-06-16 11:42:56,175 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.42, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:42:56.171691"}
+2026-06-16 11:43:01,177 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.4, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:01.173542"}
+2026-06-16 11:43:06,179 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.8, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:06.175594"}
+2026-06-16 11:43:11,181 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.45, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:11.177631"}
+2026-06-16 11:43:16,298 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.67, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:16.293830"}
+2026-06-16 11:43:21,300 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.74, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:21.295835"}
+2026-06-16 11:43:26,301 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.96, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:26.297835"}
+2026-06-16 11:43:31,304 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.88, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:31.299877"}
+2026-06-16 11:43:36,306 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.17, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:36.302135"}
+2026-06-16 11:43:41,309 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.64, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:41.304361"}
+2026-06-16 11:43:46,425 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.22, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:46.421431"}
+2026-06-16 11:43:51,427 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.26, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:51.423604"}
+2026-06-16 11:43:56,429 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.78, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:43:56.425436"}
+2026-06-16 11:44:01,432 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.84, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:01.427497"}
+2026-06-16 11:44:06,433 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.64, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:06.429421"}
+2026-06-16 11:44:11,435 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.59, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:11.431261"}
+2026-06-16 11:44:16,556 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.68, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:16.551503"}
+2026-06-16 11:44:21,558 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.34, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:21.554507"}
+2026-06-16 11:44:26,560 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.17, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:26.556554"}
+2026-06-16 11:44:31,562 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.67, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:31.558517"}
+2026-06-16 11:44:36,564 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.16, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:36.560486"}
+2026-06-16 11:44:41,566 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.32, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:41.562571"}
+2026-06-16 11:44:46,688 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.15, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:46.684817"}
+2026-06-16 11:44:51,690 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.28, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:51.686923"}
+2026-06-16 11:44:56,693 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.51, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:44:56.688882"}
+2026-06-16 11:44:58,076 INFO Metadata refresh (node_id=1)
+2026-06-16 11:44:58,199 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 1)
+2026-06-16 11:45:01,695 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.22, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:01.690906"}
+2026-06-16 11:45:06,697 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.71, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:06.693066"}
+2026-06-16 11:45:11,699 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.03, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:11.695039"}
+2026-06-16 11:45:16,814 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.95, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:16.810037"}
+2026-06-16 11:45:21,816 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:21.812176"}
+2026-06-16 11:45:26,818 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.5, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:26.814193"}
+2026-06-16 11:45:31,820 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.65, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:31.816156"}
+2026-06-16 11:45:36,822 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.08, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:36.818202"}
+2026-06-16 11:45:41,824 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.14, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:41.820387"}
+2026-06-16 11:45:46,940 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.31, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:46.936627"}
+2026-06-16 11:45:51,943 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.01, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:51.939188"}
+2026-06-16 11:45:56,945 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.51, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:45:56.941169"}
+2026-06-16 11:46:01,947 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.66, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:01.943033"}
+2026-06-16 11:46:06,950 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.76, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:06.945640"}
+2026-06-16 11:46:11,951 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.81, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:11.947655"}
+2026-06-16 11:46:17,068 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.33, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:17.063887"}
+2026-06-16 11:46:22,070 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.69, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:22.066304"}
+2026-06-16 11:46:27,072 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.65, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:27.068488"}
+2026-06-16 11:46:32,074 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.84, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:32.070494"}
+2026-06-16 11:46:37,076 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.87, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:37.072665"}
+2026-06-16 11:46:42,078 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.76, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:42.074832"}
+2026-06-16 11:46:47,199 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.59, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:47.195170"}
+2026-06-16 11:46:52,201 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.58, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:52.197188"}
+2026-06-16 11:46:57,204 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.54, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:46:57.199216"}
+2026-06-16 11:47:02,205 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.02, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:02.201159"}
+2026-06-16 11:47:07,207 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.05, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:07.203186"}
+2026-06-16 11:47:12,209 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.25, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:12.205216"}
+2026-06-16 11:47:17,324 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:17.320347"}
+2026-06-16 11:47:22,326 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.79, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:22.322435"}
+2026-06-16 11:47:27,328 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.93, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:27.324438"}
+2026-06-16 11:47:32,330 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.6, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:32.326462"}
+2026-06-16 11:47:37,332 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.0, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:37.328392"}
+2026-06-16 11:47:42,334 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.98, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:42.330653"}
+2026-06-16 11:47:47,453 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.72, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:47.449197"}
+2026-06-16 11:47:52,455 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.3, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:52.451444"}
+2026-06-16 11:47:57,457 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:47:57.453535"}
+2026-06-16 11:48:02,459 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.72, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:02.455550"}
+2026-06-16 11:48:07,461 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.49, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:07.457559"}
+2026-06-16 11:48:12,463 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.71, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:12.459360"}
+2026-06-16 11:48:17,582 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.35, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:17.578040"}
+2026-06-16 11:48:22,584 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.52, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:22.580387"}
+2026-06-16 11:48:27,586 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.46, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:27.582461"}
+2026-06-16 11:48:32,588 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.42, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:32.584509"}
+2026-06-16 11:48:37,590 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.28, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:37.586253"}
+2026-06-16 11:48:42,592 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.33, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:42.588402"}
+2026-06-16 11:48:47,717 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.08, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:47.711321"}
+2026-06-16 11:48:52,718 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.21, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:52.714639"}
+2026-06-16 11:48:57,721 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.12, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:48:57.716446"}
+2026-06-16 11:49:02,722 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.5, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:49:02.718420"}
+2026-06-16 11:49:46,932 INFO Consumer started
+2026-06-16 11:49:46,942 WARNING Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['cassandra'], lbp = None)
+2026-06-16 11:49:46,943 WARNING [control connection] Error connecting to 172.18.0.2:9042:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3670, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3692, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 1671, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 858, in cassandra.connection.Connection.factory
+  File "/usr/local/lib/python3.12/site-packages/cassandra/io/libevreactor.py", line 269, in __init__
+    self._connect_socket()
+  File "cassandra/connection.py", line 963, in cassandra.connection.Connection._connect_socket
+ConnectionRefusedError: [Errno 111] Tried connecting to [('172.18.0.2', 9042)]. Last error: Connection refused
+2026-06-16 11:49:46,947 ERROR Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1741, in cassandra.cluster.Cluster.connect
+  File "cassandra/cluster.py", line 3636, in cassandra.cluster.ControlConnection.connect
+  File "cassandra/cluster.py", line 3681, in cassandra.cluster.ControlConnection._reconnect_internal
+cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'172.18.0.2:9042': ConnectionRefusedError(111, "Tried connecting to [('172.18.0.2', 9042)]. Last error: Connection refused")})
+2026-06-16 11:49:58,682 INFO Consumer started
+2026-06-16 11:49:58,684 WARNING Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['cassandra'], lbp = None)
+2026-06-16 11:49:58,686 WARNING [control connection] Error connecting to 172.18.0.2:9042:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3670, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3692, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 1671, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 858, in cassandra.connection.Connection.factory
+  File "/usr/local/lib/python3.12/site-packages/cassandra/io/libevreactor.py", line 269, in __init__
+    self._connect_socket()
+  File "cassandra/connection.py", line 963, in cassandra.connection.Connection._connect_socket
+ConnectionRefusedError: [Errno 111] Tried connecting to [('172.18.0.2', 9042)]. Last error: Connection refused
+2026-06-16 11:49:58,686 ERROR Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1741, in cassandra.cluster.Cluster.connect
+  File "cassandra/cluster.py", line 3636, in cassandra.cluster.ControlConnection.connect
+  File "cassandra/cluster.py", line 3681, in cassandra.cluster.ControlConnection._reconnect_internal
+cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'172.18.0.2:9042': ConnectionRefusedError(111, "Tried connecting to [('172.18.0.2', 9042)]. Last error: Connection refused")})
+2026-06-16 11:50:11,466 INFO Consumer started
+2026-06-16 11:50:11,470 WARNING Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['cassandra'], lbp = None)
+2026-06-16 11:50:11,506 WARNING Downgrading core protocol version from 66 to 65 for 172.18.0.2:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2026-06-16 11:50:11,509 WARNING Downgrading core protocol version from 65 to 5 for 172.18.0.2:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2026-06-16 11:50:11,561 INFO Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '172.18.0.2:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2026-06-16 11:50:11,596 WARNING socks5_proxy is deprecated, use proxy_url instead
+2026-06-16 11:50:11,596 INFO IO loop starting (client_id=kafka-python-3.0.0)
+2026-06-16 11:50:11,602 INFO <KafkaConnection node_id=bootstrap-0 host=[172.18.0.4:9092<-56744] broker_version=unknown (initializing)>: Broker version identified as 4.2
+2026-06-16 11:50:11,602 INFO Metadata refresh (node_id=bootstrap-0)
+2026-06-16 11:50:11,607 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 0, coordinators: 0)
+2026-06-16 11:50:11,607 INFO Bootstrap complete: ClusterMetadata(brokers: 1, topics: 0, coordinators: 0)
+2026-06-16 11:50:11,607 INFO <KafkaTCPTransport [172.18.0.4:9092<-56744]>: Closing transport
+2026-06-16 11:50:11,607 INFO Starting metadata refresh loop
+2026-06-16 11:50:11,608 INFO Updating subscribed topics to: ('telemetry',)
+2026-06-16 11:50:11,611 INFO <KafkaConnection node_id=1 host=[172.18.0.4:9092<-56756] broker_version=(4, 2) (initializing)>: Broker version identified as 4.2
+2026-06-16 11:50:11,611 INFO <KafkaConnection node_id=1 host=[172.18.0.4:9092<-56756] broker_version=(4, 2) (initializing)>: Clamping client to user-supplied broker version 4.2
+2026-06-16 11:50:11,707 INFO Metadata refresh (node_id=1)
+2026-06-16 11:50:11,709 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 0)
+2026-06-16 11:50:11,719 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:11,719 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:11,721 INFO Revoking previously assigned partitions set() for group telemetry-group
+2026-06-16 11:50:11,721 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:11,722 INFO <KafkaConnection node_id=coordinator-1 host=[172.18.0.4:9092<-56770] broker_version=(4, 2) (initializing)>: Broker version identified as 4.2
+2026-06-16 11:50:11,722 INFO <KafkaConnection node_id=coordinator-1 host=[172.18.0.4:9092<-56770] broker_version=(4, 2) (initializing)>: Clamping client to user-supplied broker version 4.2
+2026-06-16 11:50:11,727 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:11,727 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:11,829 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:11,830 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:11,830 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:11,831 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:11,831 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:11,934 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:11,935 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:11,935 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:11,936 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:11,936 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:12,038 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:12,073 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:12,074 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:12,075 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:12,075 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:12,177 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:12,177 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:12,177 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:12,179 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:12,179 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:12,281 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:12,281 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:12,281 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:12,283 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:12,283 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:12,385 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:12,385 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:12,385 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:12,386 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:12,386 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:12,488 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:12,489 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:12,489 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:12,490 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:12,490 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:12,592 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:12,592 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:12,592 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:12,593 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:12,593 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:12,696 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:12,696 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:12,696 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:12,697 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:12,697 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:12,800 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:12,800 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:12,800 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:12,801 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:12,801 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:12,903 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:12,904 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:12,904 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:12,905 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:12,905 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,007 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,008 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,008 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,010 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,010 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,112 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,112 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,112 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,114 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,114 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,216 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,216 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,216 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,217 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,217 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,319 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,319 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,320 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,321 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,321 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,423 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,423 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,423 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,424 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,424 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,526 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,527 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,527 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,528 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,528 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,630 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,630 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,630 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,632 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,632 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,734 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,734 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,734 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,735 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,735 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,837 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,837 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,838 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,839 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,839 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:13,941 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:13,941 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:13,941 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:13,942 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:13,942 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,044 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,044 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,044 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,046 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,046 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,148 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,148 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,148 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,149 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,149 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,251 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,251 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,251 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,253 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,253 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,354 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,355 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,355 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,356 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,356 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,458 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,458 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,458 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,459 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,459 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,562 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,562 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,562 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,563 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,563 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,665 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,665 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,665 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,667 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,667 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,769 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,769 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,769 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,770 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,770 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,873 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,873 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,873 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,874 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,874 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:14,976 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:14,976 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:14,976 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:14,978 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:14,978 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:15,080 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:15,080 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:15,080 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:15,081 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:15,081 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:15,183 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:15,183 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:15,184 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:15,185 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:15,185 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:15,287 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:15,287 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:15,287 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:15,288 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:15,288 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:15,390 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:15,391 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:15,391 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:15,392 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:15,392 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:15,494 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:15,494 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:15,494 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:15,495 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:15,495 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:15,597 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:15,597 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:15,597 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:15,598 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:15,598 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:15,701 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:15,701 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:15,701 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:15,702 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:15,702 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:15,804 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:15,804 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:15,804 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:15,805 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:15,806 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:15,908 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:15,908 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:15,908 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:15,909 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:15,909 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:16,012 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:16,012 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:16,012 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:16,013 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:16,014 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:16,116 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:16,116 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:16,116 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:16,118 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:16,118 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:16,220 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:16,220 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:16,220 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:16,222 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:16,222 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:16,324 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:16,324 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:16,324 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:16,325 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:16,325 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:16,427 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:16,427 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:16,427 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:16,429 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:16,429 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:16,531 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:16,531 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:16,531 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:16,532 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:16,532 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:16,634 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:16,634 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:16,634 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:16,635 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:16,636 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:16,737 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:16,738 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:16,738 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:16,739 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:16,739 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:16,841 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:16,841 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:16,841 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:16,842 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:16,842 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,066 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,066 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,066 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,067 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,067 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,170 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,170 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,170 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,171 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,171 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,273 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,273 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,273 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,274 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,274 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,376 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,376 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,376 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,377 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,377 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,479 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,479 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,479 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,480 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,480 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,582 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,582 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,583 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,584 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,584 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,686 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,686 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,686 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,687 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,687 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,789 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,789 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,789 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,790 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,790 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,892 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,892 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,893 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,894 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,894 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:17,996 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:17,996 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:17,996 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:17,997 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:17,997 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:18,099 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:18,099 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:18,099 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:18,100 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:18,101 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:18,203 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:18,203 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:18,203 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:18,204 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:18,205 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:18,307 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:18,307 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:18,307 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:18,308 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:18,308 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:18,410 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:18,410 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:18,410 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:18,412 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:18,412 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:18,514 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:18,514 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:18,514 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:18,515 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:18,515 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:18,617 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:18,617 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:18,617 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:18,618 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:18,618 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:18,720 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:18,720 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:18,721 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:18,722 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:18,722 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:18,824 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:18,824 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:18,824 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:18,825 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:18,825 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:18,927 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:18,927 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:18,927 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:18,929 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:18,929 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,031 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,031 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,031 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,032 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,032 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,134 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,134 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,134 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,136 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,136 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,238 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,238 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,238 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,239 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,239 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,343 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,343 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,343 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,345 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,345 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,448 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,448 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,448 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,449 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,449 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,551 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,552 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,552 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,553 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,553 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,655 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,655 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,655 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,656 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,656 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,758 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,758 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,759 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,760 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,760 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,862 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,862 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,862 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,863 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,863 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:19,966 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:19,966 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:19,966 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:19,967 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:19,967 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:20,069 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:20,069 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:20,069 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:20,071 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:20,071 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:20,173 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:20,173 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:20,174 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:20,175 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:20,175 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:20,277 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:20,277 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:20,277 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:20,279 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:20,279 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:20,381 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:20,381 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:20,381 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:20,383 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:20,383 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:20,484 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:20,485 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:20,485 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:20,486 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:20,486 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:20,588 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:20,588 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:20,588 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:20,589 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:20,589 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:20,692 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:20,692 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:20,692 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:20,693 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:20,693 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:20,795 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:20,795 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:20,796 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:20,797 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:20,797 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:20,899 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:20,899 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:20,899 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:20,900 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:20,901 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,002 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,003 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,003 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,004 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,004 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,106 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,106 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,106 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,107 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,108 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,209 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,210 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,210 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,211 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,211 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,313 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,313 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,313 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,315 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,315 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,417 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,417 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,417 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,418 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,418 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,520 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,521 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,521 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,522 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,522 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,624 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,624 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,624 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,625 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,625 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,727 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,727 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,727 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,728 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,728 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,831 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,831 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,831 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,832 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,832 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:21,934 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:21,934 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:21,935 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:21,936 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:21,936 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,038 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,038 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,038 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,039 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,039 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,141 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,141 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,141 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,142 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,142 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,244 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,244 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,244 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,246 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,246 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,348 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,348 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,348 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,349 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,349 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,451 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,451 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,451 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,452 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,453 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,555 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,555 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,555 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,556 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,556 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,658 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,658 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,659 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,660 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,660 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,764 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,764 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,764 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,766 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,766 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,868 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,868 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,869 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,870 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,870 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:22,972 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:22,972 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:22,973 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:22,974 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:22,974 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:23,077 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:23,077 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:23,077 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:23,078 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:23,078 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:23,180 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:23,181 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:23,181 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:23,182 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:23,182 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:23,284 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:23,284 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:23,284 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:23,285 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:23,285 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:23,387 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:23,387 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:23,388 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:23,389 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:23,389 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:23,491 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:23,491 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:23,491 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:23,492 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:23,493 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:23,595 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:23,595 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:23,595 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:23,596 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:23,596 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:23,698 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:23,698 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:23,699 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:23,700 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:23,700 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:23,802 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:23,802 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:23,802 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:23,803 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:23,803 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:23,905 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:23,905 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:23,905 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:23,907 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:23,907 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,009 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,009 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,009 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,010 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,010 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,112 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,113 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,113 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,120 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,120 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,222 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,222 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,223 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,224 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,224 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,326 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,326 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,326 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,328 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,328 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,430 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,430 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,430 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,431 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,431 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,533 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,533 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,533 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,534 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,534 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,636 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,636 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,637 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,638 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,638 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,740 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,740 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,740 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,741 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,741 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,843 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,844 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,844 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,845 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,845 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:24,947 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:24,947 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:24,947 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:24,948 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:24,949 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:25,051 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:25,051 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:25,051 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:25,052 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:25,052 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:25,154 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:25,154 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:25,154 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:25,155 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:25,155 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:25,257 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:25,257 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:25,257 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:25,258 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:25,258 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:25,360 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:25,360 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:25,360 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:25,361 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:25,361 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:25,463 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:25,463 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:25,463 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:25,464 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:25,464 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:25,567 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:25,567 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:25,567 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:25,568 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:25,568 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:25,670 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:25,670 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:25,670 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:25,672 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:50:25,672 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:50:25,774 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:50:25,774 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:50:25,774 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:25,777 INFO Received member id kafka-python-3.0.0-f7b9ecaa-0b0b-4d5b-8dc9-cbe02268b592 for group telemetry-group; will retry join-group
+2026-06-16 11:50:25,777 INFO (Re-)joining group telemetry-group
+2026-06-16 11:50:28,784 INFO Successfully joined group telemetry-group <Generation 1 (member_id: kafka-python-3.0.0-f7b9ecaa-0b0b-4d5b-8dc9-cbe02268b592, protocol: range)>
+2026-06-16 11:50:28,784 INFO Elected group leader -- performing partition assignments using range
+2026-06-16 11:50:28,786 INFO Metadata refresh (node_id=1)
+2026-06-16 11:50:28,788 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 1)
+2026-06-16 11:50:28,790 INFO Updated partition assignment: [TopicPartition(topic='telemetry', partition=0)]
+2026-06-16 11:50:28,790 INFO Setting newly assigned partitions {TopicPartition(topic='telemetry', partition=0)} for group telemetry-group
+2026-06-16 11:50:28,886 INFO Resetting offset for partition TopicPartition(topic='telemetry', partition=0) to offset 7.
+2026-06-16 11:50:33,628 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.19, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:50:33.615005"}
+2026-06-16 11:50:38,623 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.45, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:50:38.617734"}
+2026-06-16 11:50:43,625 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.45, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:50:43.620122"}
+2026-06-16 11:50:48,748 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.3, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:50:48.742656"}
+2026-06-16 11:50:53,752 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.75, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:50:53.745387"}
+2026-06-16 11:50:58,754 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.32, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:50:58.748018"}
+2026-06-16 11:51:03,756 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.06, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:03.750536"}
+2026-06-16 11:51:08,758 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.06, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:08.753038"}
+2026-06-16 11:51:13,761 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.46, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:13.755515"}
+2026-06-16 11:51:18,877 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.61, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:18.872355"}
+2026-06-16 11:51:23,880 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.36, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:23.875024"}
+2026-06-16 11:51:28,883 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.68, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:28.877434"}
+2026-06-16 11:51:33,885 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.43, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:33.880021"}
+2026-06-16 11:51:38,888 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.45, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:38.882328"}
+2026-06-16 11:51:43,890 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.4, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:43.885018"}
+2026-06-16 11:51:49,009 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.72, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:49.004037"}
+2026-06-16 11:51:54,012 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.29, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:54.006653"}
+2026-06-16 11:51:59,014 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.49, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:51:59.009010"}
+2026-06-16 11:52:04,017 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.4, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:04.011517"}
+2026-06-16 11:52:09,019 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.51, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:09.013845"}
+2026-06-16 11:52:14,026 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.57, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:14.016237"}
+2026-06-16 11:52:19,146 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.51, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:19.140472"}
+2026-06-16 11:52:24,148 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.95, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:24.143136"}
+2026-06-16 11:52:29,151 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.27, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:29.145571"}
+2026-06-16 11:52:34,154 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.31, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:34.148224"}
+2026-06-16 11:52:39,156 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:39.150783"}
+2026-06-16 11:52:44,158 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.19, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:44.153250"}
+2026-06-16 11:52:49,278 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:49.273064"}
+2026-06-16 11:52:54,281 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.84, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:54.275659"}
+2026-06-16 11:52:59,283 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.35, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:52:59.277984"}
+2026-06-16 11:53:04,285 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.58, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:04.280529"}
+2026-06-16 11:53:09,288 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.2, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:09.282767"}
+2026-06-16 11:53:14,290 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.64, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:14.284857"}
+2026-06-16 11:53:19,407 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.86, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:19.401997"}
+2026-06-16 11:53:24,410 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.27, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:24.404550"}
+2026-06-16 11:53:29,412 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.3, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:29.407002"}
+2026-06-16 11:53:34,415 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.07, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:34.409687"}
+2026-06-16 11:53:39,417 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.74, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:39.412049"}
+2026-06-16 11:53:44,419 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.42, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:44.414164"}
+2026-06-16 11:53:49,538 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.45, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:49.532674"}
+2026-06-16 11:53:54,540 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.32, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:54.534968"}
+2026-06-16 11:53:59,542 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.22, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:53:59.537228"}
+2026-06-16 11:54:04,545 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.43, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:04.539679"}
+2026-06-16 11:54:09,547 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.81, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:09.542386"}
+2026-06-16 11:54:14,549 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.27, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:14.544490"}
+2026-06-16 11:54:19,670 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.31, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:19.664780"}
+2026-06-16 11:54:24,672 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.07, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:24.667133"}
+2026-06-16 11:54:29,675 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.05, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:29.669818"}
+2026-06-16 11:54:34,677 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.23, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:34.672430"}
+2026-06-16 11:54:39,680 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.77, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:39.674645"}
+2026-06-16 11:54:44,682 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.95, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:44.677014"}
+2026-06-16 11:54:49,798 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.96, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:49.793021"}
+2026-06-16 11:54:54,800 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.25, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:54.795430"}
+2026-06-16 11:54:59,802 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.26, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:54:59.797643"}
+2026-06-16 11:55:04,805 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.74, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:04.800124"}
+2026-06-16 11:55:09,808 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.05, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:09.802705"}
+2026-06-16 11:55:14,810 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.16, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:14.804945"}
+2026-06-16 11:55:19,934 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.33, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:19.927911"}
+2026-06-16 11:55:24,936 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.74, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:24.930607"}
+2026-06-16 11:55:29,938 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.45, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:29.932891"}
+2026-06-16 11:55:29,954 INFO Metadata refresh (node_id=1)
+2026-06-16 11:55:30,442 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 1)
+2026-06-16 11:55:34,941 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.79, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:34.935197"}
+2026-06-16 11:55:39,943 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.43, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:39.937873"}
+2026-06-16 11:55:44,945 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.12, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:44.940051"}
+2026-06-16 11:55:50,065 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.06, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:50.059666"}
+2026-06-16 11:55:55,067 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.3, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:55:55.061992"}
+2026-06-16 11:56:00,069 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.58, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:00.064204"}
+2026-06-16 11:56:05,071 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.37, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:05.066677"}
+2026-06-16 11:56:10,074 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.23, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:10.068776"}
+2026-06-16 11:56:15,076 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.69, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:15.071020"}
+2026-06-16 11:56:20,199 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.86, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:20.194521"}
+2026-06-16 11:56:25,201 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.43, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:25.196735"}
+2026-06-16 11:56:30,204 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.57, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:30.198923"}
+2026-06-16 11:56:35,207 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.03, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:35.201350"}
+2026-06-16 11:56:40,209 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.49, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:40.204442"}
+2026-06-16 11:56:45,211 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.98, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:45.206732"}
+2026-06-16 11:56:50,333 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.01, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:50.327739"}
+2026-06-16 11:56:55,336 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.93, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:56:55.330100"}
+2026-06-16 11:57:00,337 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.43, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:00.332282"}
+2026-06-16 11:57:05,339 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.54, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:05.334747"}
+2026-06-16 11:57:10,341 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.48, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:10.336862"}
+2026-06-16 11:57:15,343 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.73, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:15.339066"}
+2026-06-16 11:57:20,467 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.63, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:20.461534"}
+2026-06-16 11:57:25,469 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.02, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:25.464178"}
+2026-06-16 11:57:30,472 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.21, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:30.466488"}
+2026-06-16 11:57:35,474 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.96, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:35.469278"}
+2026-06-16 11:57:40,477 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.81, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:40.471832"}
+2026-06-16 11:57:45,479 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.53, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:45.474615"}
+2026-06-16 11:57:50,601 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.18, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:50.595918"}
+2026-06-16 11:57:55,604 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.51, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:57:55.598543"}
+2026-06-16 11:58:00,606 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.89, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:00.601073"}
+2026-06-16 11:58:05,609 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.76, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:05.603837"}
+2026-06-16 11:58:10,611 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.6, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:10.606308"}
+2026-06-16 11:58:15,613 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.07, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:15.608661"}
+2026-06-16 11:58:20,737 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.43, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:20.732425"}
+2026-06-16 11:58:25,741 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.2, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:25.734856"}
+2026-06-16 11:58:30,742 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.48, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:30.737153"}
+2026-06-16 11:58:35,744 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.98, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:35.739562"}
+2026-06-16 11:58:40,747 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.85, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:40.741832"}
+2026-06-16 11:58:45,749 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.81, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:45.744263"}
+2026-06-16 11:58:50,872 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 80.0, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:50.867187"}
+2026-06-16 11:58:55,875 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.79, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:58:55.869403"}
+2026-06-16 11:59:00,877 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.04, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:00.871916"}
+2026-06-16 11:59:05,879 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.72, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:05.874438"}
+2026-06-16 11:59:10,882 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.51, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:10.876668"}
+2026-06-16 11:59:15,884 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.19, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:15.879142"}
+2026-06-16 11:59:21,009 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.19, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:21.003215"}
+2026-06-16 11:59:26,010 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.66, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:26.005748"}
+2026-06-16 11:59:31,013 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.01, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:31.008029"}
+2026-06-16 11:59:36,015 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.54, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:36.010428"}
+2026-06-16 11:59:41,017 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.71, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:41.012605"}
+2026-06-16 11:59:46,020 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:46.015114"}
+2026-06-16 11:59:51,145 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.19, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:51.139723"}
+2026-06-16 11:59:56,147 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.63, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:59:56.142287"}
+2026-06-16 12:00:01,150 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.64, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:01.144916"}
+2026-06-16 12:00:06,152 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:06.147326"}
+2026-06-16 12:00:11,154 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.97, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:11.149299"}
+2026-06-16 12:00:16,156 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.99, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:16.151692"}
+2026-06-16 12:00:21,282 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.77, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:21.277105"}
+2026-06-16 12:00:26,284 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.92, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:26.279564"}
+2026-06-16 12:00:31,286 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.84, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:31.281642"}
+2026-06-16 12:00:31,648 INFO Metadata refresh (node_id=1)
+2026-06-16 12:00:31,789 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 1)
+2026-06-16 12:00:36,289 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.46, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:36.284006"}
+2026-06-16 12:00:41,291 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.52, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:41.286837"}
+2026-06-16 12:00:46,293 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.98, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:46.289052"}
+2026-06-16 12:00:51,418 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.3, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:51.412118"}
+2026-06-16 12:00:56,420 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.83, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:00:56.415105"}
+2026-06-16 12:01:01,422 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.59, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:01.417667"}
+2026-06-16 12:01:06,424 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.03, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:06.419911"}
+2026-06-16 12:01:11,427 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:11.421919"}
+2026-06-16 12:01:16,428 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.45, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:16.424023"}
+2026-06-16 12:01:21,551 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.03, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:21.546412"}
+2026-06-16 12:01:26,553 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.48, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:26.548782"}
+2026-06-16 12:01:31,555 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.82, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:31.551135"}
+2026-06-16 12:01:36,557 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.04, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:36.553221"}
+2026-06-16 12:01:41,560 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.8, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:41.555398"}
+2026-06-16 12:01:46,563 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.06, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:46.557624"}
+2026-06-16 12:01:51,681 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.57, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:51.676144"}
+2026-06-16 12:01:56,685 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.2, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:01:56.678484"}
+2026-06-16 12:02:01,686 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.56, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:01.681741"}
+2026-06-16 12:02:06,690 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.21, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:06.683960"}
+2026-06-16 12:02:11,691 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.71, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:11.686973"}
+2026-06-16 12:02:16,694 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.67, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:16.689295"}
+2026-06-16 12:02:21,821 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.12, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:21.816614"}
+2026-06-16 12:02:26,824 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.49, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:26.818847"}
+2026-06-16 12:02:31,826 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.29, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:31.821791"}
+2026-06-16 12:02:36,829 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.88, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:36.824064"}
+2026-06-16 12:02:41,830 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.85, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:41.826155"}
+2026-06-16 12:02:46,833 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.13, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:46.828300"}
+2026-06-16 12:02:51,956 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.18, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:51.951001"}
+2026-06-16 12:02:56,958 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.0, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:02:56.953442"}
+2026-06-16 12:03:01,960 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.47, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:03:01.955584"}
+2026-06-16 12:03:06,962 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:03:06.958044"}
+2026-06-16 12:03:11,965 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:03:11.960172"}

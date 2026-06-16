@@ -7,3 +7,9 @@ scrape_configs:
     static_configs:
       - targets:
           - consumer:8001
+
+  - job_name: simulation
+
+    static_configs:
+      - targets:
+          - simulation:8002        

@@ -148,6 +148,8 @@ services:
       - kafka
     environment:
       KAFKA_HOST: kafka:9092
+    ports:
+      - "8002:8002"   
     volumes:
       - ./logs:/logs  
 volumes:

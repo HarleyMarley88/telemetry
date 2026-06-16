@@ -23,7 +23,7 @@ logger = logging.getLogger("simulation")
 TAG_NAME = "reactor_temp"
 
 while True:
-    ts = now.isoformat()
+    ts_now = now.isoformat()
     now = datetime.now()
     day = ts.strftime("%Y-%m-%d")
     value = round(
@@ -33,7 +33,7 @@ while True:
 
     data = {
         "tag_name": TAG_NAME,
-        "timestamp": ts,
+        "timestamp": ts_now,
         "value": value
     }
     try:
@@ -52,7 +52,7 @@ while True:
                     "value": value,
                     "day": day,
                     "status": "success",
-                    "timestamp": ts
+                    "timestamp": ts_now
                 })
             )
     except Exception as e:

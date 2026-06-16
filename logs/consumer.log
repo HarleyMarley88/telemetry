@@ -7419,3 +7419,21 @@ cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'172.18
 2026-06-16 12:03:01,960 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.47, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:03:01.955584"}
 2026-06-16 12:03:06,962 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:03:06.958044"}
 2026-06-16 12:03:11,965 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.41, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T12:03:11.960172"}
+2026-06-16 12:11:59,562 INFO Consumer started
+2026-06-16 12:11:59,570 WARNING Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['cassandra'], lbp = None)
+2026-06-16 12:11:59,572 WARNING [control connection] Error connecting to 172.18.0.3:9042:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3670, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3692, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 1671, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 858, in cassandra.connection.Connection.factory
+  File "/usr/local/lib/python3.12/site-packages/cassandra/io/libevreactor.py", line 269, in __init__
+    self._connect_socket()
+  File "cassandra/connection.py", line 963, in cassandra.connection.Connection._connect_socket
+ConnectionRefusedError: [Errno 111] Tried connecting to [('172.18.0.3', 9042)]. Last error: Connection refused
+2026-06-16 12:11:59,573 ERROR Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1741, in cassandra.cluster.Cluster.connect
+  File "cassandra/cluster.py", line 3636, in cassandra.cluster.ControlConnection.connect
+  File "cassandra/cluster.py", line 3681, in cassandra.cluster.ControlConnection._reconnect_internal
+cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'172.18.0.3:9042': ConnectionRefusedError(111, "Tried connecting to [('172.18.0.3', 9042)]. Last error: Connection refused")})

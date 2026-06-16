@@ -6014,3 +6014,239 @@ cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'172.18
 2026-06-15 17:29:07,235 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.45, "day": "2026-06-15", "status": "success", "timestamp": "2026-06-15T17:29:07.231421"}
 2026-06-15 17:29:12,237 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.32, "day": "2026-06-15", "status": "success", "timestamp": "2026-06-15T17:29:12.233584"}
 2026-06-15 17:29:17,238 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.54, "day": "2026-06-15", "status": "success", "timestamp": "2026-06-15T17:29:17.235497"}
+2026-06-16 11:12:45,101 INFO Consumer started
+2026-06-16 11:12:45,106 WARNING Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['cassandra'], lbp = None)
+2026-06-16 11:12:45,108 WARNING [control connection] Error connecting to 172.18.0.3:9042:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3670, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3692, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 1671, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 858, in cassandra.connection.Connection.factory
+  File "/usr/local/lib/python3.12/site-packages/cassandra/io/libevreactor.py", line 269, in __init__
+    self._connect_socket()
+  File "cassandra/connection.py", line 963, in cassandra.connection.Connection._connect_socket
+ConnectionRefusedError: [Errno 111] Tried connecting to [('172.18.0.3', 9042)]. Last error: Connection refused
+2026-06-16 11:12:45,110 ERROR Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1741, in cassandra.cluster.Cluster.connect
+  File "cassandra/cluster.py", line 3636, in cassandra.cluster.ControlConnection.connect
+  File "cassandra/cluster.py", line 3681, in cassandra.cluster.ControlConnection._reconnect_internal
+cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'172.18.0.3:9042': ConnectionRefusedError(111, "Tried connecting to [('172.18.0.3', 9042)]. Last error: Connection refused")})
+2026-06-16 11:12:57,745 INFO Consumer started
+2026-06-16 11:12:57,749 WARNING Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['cassandra'], lbp = None)
+2026-06-16 11:12:57,750 WARNING [control connection] Error connecting to 172.18.0.3:9042:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 3670, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra/cluster.py", line 3692, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra/cluster.py", line 1671, in cassandra.cluster.Cluster.connection_factory
+  File "cassandra/connection.py", line 858, in cassandra.connection.Connection.factory
+  File "/usr/local/lib/python3.12/site-packages/cassandra/io/libevreactor.py", line 269, in __init__
+    self._connect_socket()
+  File "cassandra/connection.py", line 963, in cassandra.connection.Connection._connect_socket
+ConnectionRefusedError: [Errno 111] Tried connecting to [('172.18.0.3', 9042)]. Last error: Connection refused
+2026-06-16 11:12:57,751 ERROR Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra/cluster.py", line 1741, in cassandra.cluster.Cluster.connect
+  File "cassandra/cluster.py", line 3636, in cassandra.cluster.ControlConnection.connect
+  File "cassandra/cluster.py", line 3681, in cassandra.cluster.ControlConnection._reconnect_internal
+cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'172.18.0.3:9042': ConnectionRefusedError(111, "Tried connecting to [('172.18.0.3', 9042)]. Last error: Connection refused")})
+2026-06-16 11:14:47,330 INFO Consumer started
+2026-06-16 11:14:47,334 WARNING Cluster.__init__ called with contact_points specified, but no load_balancing_policy. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['cassandra'], lbp = None)
+2026-06-16 11:14:47,357 WARNING Downgrading core protocol version from 66 to 65 for 172.18.0.3:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2026-06-16 11:14:47,359 WARNING Downgrading core protocol version from 65 to 5 for 172.18.0.3:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. https://docs.datastax.com/en/developer/python-driver/latest/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2026-06-16 11:14:47,412 INFO Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '172.18.0.3:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2026-06-16 11:14:47,449 WARNING socks5_proxy is deprecated, use proxy_url instead
+2026-06-16 11:14:47,450 INFO IO loop starting (client_id=kafka-python-3.0.0)
+2026-06-16 11:14:47,455 INFO <KafkaConnection node_id=bootstrap-0 host=[172.18.0.2:9092<-41510] broker_version=unknown (initializing)>: Broker version identified as 4.2
+2026-06-16 11:14:47,455 INFO Metadata refresh (node_id=bootstrap-0)
+2026-06-16 11:14:47,460 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 0, coordinators: 0)
+2026-06-16 11:14:47,460 INFO Bootstrap complete: ClusterMetadata(brokers: 1, topics: 0, coordinators: 0)
+2026-06-16 11:14:47,460 INFO <KafkaTCPTransport [172.18.0.2:9092<-41510]>: Closing transport
+2026-06-16 11:14:47,461 INFO Starting metadata refresh loop
+2026-06-16 11:14:47,461 INFO Updating subscribed topics to: ('telemetry',)
+2026-06-16 11:14:47,465 INFO <KafkaConnection node_id=1 host=[172.18.0.2:9092<-41520] broker_version=(4, 2) (initializing)>: Broker version identified as 4.2
+2026-06-16 11:14:47,465 INFO <KafkaConnection node_id=1 host=[172.18.0.2:9092<-41520] broker_version=(4, 2) (initializing)>: Clamping client to user-supplied broker version 4.2
+2026-06-16 11:14:47,560 INFO Metadata refresh (node_id=1)
+2026-06-16 11:14:47,562 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 0)
+2026-06-16 11:14:47,576 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:14:47,576 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:14:47,578 INFO Revoking previously assigned partitions set() for group telemetry-group
+2026-06-16 11:14:47,578 INFO (Re-)joining group telemetry-group
+2026-06-16 11:14:47,579 INFO <KafkaConnection node_id=coordinator-1 host=[172.18.0.2:9092<-41524] broker_version=(4, 2) (initializing)>: Broker version identified as 4.2
+2026-06-16 11:14:47,579 INFO <KafkaConnection node_id=coordinator-1 host=[172.18.0.2:9092<-41524] broker_version=(4, 2) (initializing)>: Clamping client to user-supplied broker version 4.2
+2026-06-16 11:14:47,585 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:14:47,585 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:14:47,687 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:14:47,687 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:14:47,687 INFO (Re-)joining group telemetry-group
+2026-06-16 11:14:47,689 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:14:47,689 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:14:47,792 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:14:47,793 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:14:47,793 INFO (Re-)joining group telemetry-group
+2026-06-16 11:14:47,794 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:14:47,794 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:14:47,897 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:14:47,897 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:14:47,897 INFO (Re-)joining group telemetry-group
+2026-06-16 11:14:47,898 WARNING Marking the coordinator dead (node coordinator-1) for group telemetry-group: [Error 16] NotCoordinatorError.
+2026-06-16 11:14:47,898 INFO Attempt to join group telemetry-group failed due to obsolete coordinator information: NotCoordinatorError
+2026-06-16 11:14:48,001 INFO Coordinator for GROUP/telemetry-group is MetadataResponseBroker(node_id='coordinator-1', host='kafka', port=9092, rack=None)
+2026-06-16 11:14:48,001 INFO Discovered coordinator coordinator-1 for group telemetry-group
+2026-06-16 11:14:48,002 INFO (Re-)joining group telemetry-group
+2026-06-16 11:14:48,005 INFO Received member id kafka-python-3.0.0-d1cf86fa-2187-478d-a925-0f4acf92baee for group telemetry-group; will retry join-group
+2026-06-16 11:14:48,005 INFO (Re-)joining group telemetry-group
+2026-06-16 11:14:51,015 INFO Successfully joined group telemetry-group <Generation 1 (member_id: kafka-python-3.0.0-d1cf86fa-2187-478d-a925-0f4acf92baee, protocol: range)>
+2026-06-16 11:14:51,015 INFO Elected group leader -- performing partition assignments using range
+2026-06-16 11:14:51,016 INFO Metadata refresh (node_id=1)
+2026-06-16 11:14:51,018 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 1)
+2026-06-16 11:14:51,020 INFO Updated partition assignment: [TopicPartition(topic='telemetry', partition=0)]
+2026-06-16 11:14:51,020 INFO Setting newly assigned partitions {TopicPartition(topic='telemetry', partition=0)} for group telemetry-group
+2026-06-16 11:14:51,033 INFO Resetting offset for partition TopicPartition(topic='telemetry', partition=0) to offset 24.
+2026-06-16 11:14:54,659 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.93, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:14:54.644694"}
+2026-06-16 11:14:59,654 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.62, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:14:59.647640"}
+2026-06-16 11:15:04,657 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.85, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:04.650561"}
+2026-06-16 11:15:09,766 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.15, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:09.754179"}
+2026-06-16 11:15:14,770 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.85, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:14.764058"}
+2026-06-16 11:15:19,772 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.54, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:19.766968"}
+2026-06-16 11:15:24,775 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.12, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:24.769521"}
+2026-06-16 11:15:29,778 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.17, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:29.772150"}
+2026-06-16 11:15:34,781 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.12, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:34.774930"}
+2026-06-16 11:15:39,862 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.68, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:39.856685"}
+2026-06-16 11:15:44,867 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.56, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:44.859308"}
+2026-06-16 11:15:49,869 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.01, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:49.863390"}
+2026-06-16 11:15:54,871 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.33, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:54.865752"}
+2026-06-16 11:15:59,873 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.8, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:15:59.868121"}
+2026-06-16 11:16:04,876 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.42, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:04.870615"}
+2026-06-16 11:16:09,965 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.92, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:09.959569"}
+2026-06-16 11:16:14,968 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.47, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:14.962236"}
+2026-06-16 11:16:19,971 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.23, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:19.964745"}
+2026-06-16 11:16:24,973 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.17, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:24.967401"}
+2026-06-16 11:16:29,975 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.85, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:29.969844"}
+2026-06-16 11:16:34,977 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.75, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:34.972520"}
+2026-06-16 11:16:40,076 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.68, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:40.070701"}
+2026-06-16 11:16:45,079 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.18, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:45.073233"}
+2026-06-16 11:16:50,082 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.21, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:50.075767"}
+2026-06-16 11:16:55,084 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.81, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:16:55.078421"}
+2026-06-16 11:17:00,086 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.68, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:00.080920"}
+2026-06-16 11:17:05,088 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:05.083433"}
+2026-06-16 11:17:10,196 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.02, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:10.190842"}
+2026-06-16 11:17:15,199 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.54, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:15.193486"}
+2026-06-16 11:17:20,201 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.24, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:20.195891"}
+2026-06-16 11:17:25,203 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.96, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:25.198180"}
+2026-06-16 11:17:30,205 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.25, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:30.200591"}
+2026-06-16 11:17:35,208 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.71, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:35.202805"}
+2026-06-16 11:17:40,295 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.85, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:40.290271"}
+2026-06-16 11:17:45,298 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.43, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:45.293147"}
+2026-06-16 11:17:50,300 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.65, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:50.295528"}
+2026-06-16 11:17:55,303 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.18, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:17:55.297598"}
+2026-06-16 11:18:00,305 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.66, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:00.299882"}
+2026-06-16 11:18:05,307 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.75, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:05.302282"}
+2026-06-16 11:18:10,398 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.78, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:10.392629"}
+2026-06-16 11:18:15,401 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.71, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:15.395949"}
+2026-06-16 11:18:20,403 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.82, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:20.398273"}
+2026-06-16 11:18:25,406 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.58, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:25.400392"}
+2026-06-16 11:18:30,407 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.81, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:30.402664"}
+2026-06-16 11:18:35,410 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.64, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:35.404748"}
+2026-06-16 11:18:40,503 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.15, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:40.498132"}
+2026-06-16 11:18:45,506 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.5, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:45.500915"}
+2026-06-16 11:18:50,508 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.54, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:50.503449"}
+2026-06-16 11:18:55,511 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.58, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:18:55.505815"}
+2026-06-16 11:19:00,513 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.03, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:00.508246"}
+2026-06-16 11:19:05,516 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.64, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:05.510730"}
+2026-06-16 11:19:10,615 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.56, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:10.610426"}
+2026-06-16 11:19:15,619 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.32, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:15.614171"}
+2026-06-16 11:19:20,621 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.45, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:20.616431"}
+2026-06-16 11:19:25,623 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.43, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:25.618602"}
+2026-06-16 11:19:30,626 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:30.621193"}
+2026-06-16 11:19:35,630 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.86, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:35.623462"}
+2026-06-16 11:19:40,719 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.15, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:40.714299"}
+2026-06-16 11:19:45,722 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.42, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:45.716755"}
+2026-06-16 11:19:50,724 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.84, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:50.719232"}
+2026-06-16 11:19:51,937 INFO Metadata refresh (node_id=1)
+2026-06-16 11:19:52,231 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 1)
+2026-06-16 11:19:55,726 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.1, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:19:55.721493"}
+2026-06-16 11:20:00,728 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.05, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:00.723568"}
+2026-06-16 11:20:05,731 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.98, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:05.726000"}
+2026-06-16 11:20:10,822 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.29, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:10.816985"}
+2026-06-16 11:20:15,824 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.15, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:15.819385"}
+2026-06-16 11:20:20,826 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.68, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:20.821852"}
+2026-06-16 11:20:25,829 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.48, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:25.823978"}
+2026-06-16 11:20:30,831 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.53, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:30.826126"}
+2026-06-16 11:20:35,833 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.18, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:35.828547"}
+2026-06-16 11:20:40,929 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.58, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:40.924656"}
+2026-06-16 11:20:45,932 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.52, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:45.927111"}
+2026-06-16 11:20:50,934 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.18, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:50.929251"}
+2026-06-16 11:20:55,937 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.5, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:20:55.931771"}
+2026-06-16 11:21:00,939 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.72, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:00.934067"}
+2026-06-16 11:21:05,941 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.86, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:05.936278"}
+2026-06-16 11:21:11,045 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:11.040641"}
+2026-06-16 11:21:16,048 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.7, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:16.043035"}
+2026-06-16 11:21:21,050 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.83, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:21.045374"}
+2026-06-16 11:21:26,052 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.23, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:26.047566"}
+2026-06-16 11:21:31,054 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.33, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:31.049871"}
+2026-06-16 11:21:36,057 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.42, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:36.051927"}
+2026-06-16 11:21:41,157 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.61, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:41.152526"}
+2026-06-16 11:21:46,161 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.34, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:46.154805"}
+2026-06-16 11:21:51,163 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.2, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:51.157880"}
+2026-06-16 11:21:56,165 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.9, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:21:56.160338"}
+2026-06-16 11:22:01,168 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.05, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:01.162611"}
+2026-06-16 11:22:06,170 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.0, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:06.164998"}
+2026-06-16 11:22:11,266 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.71, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:11.260799"}
+2026-06-16 11:22:16,268 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.04, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:16.263903"}
+2026-06-16 11:22:21,271 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.05, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:21.266231"}
+2026-06-16 11:22:26,273 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.92, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:26.268503"}
+2026-06-16 11:22:31,276 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.17, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:31.270703"}
+2026-06-16 11:22:36,277 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.86, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:36.272953"}
+2026-06-16 11:22:41,375 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.98, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:41.369866"}
+2026-06-16 11:22:46,377 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.07, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:46.372412"}
+2026-06-16 11:22:51,380 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.09, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:51.374707"}
+2026-06-16 11:22:56,382 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.86, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:22:56.377033"}
+2026-06-16 11:23:01,384 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.65, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:01.379380"}
+2026-06-16 11:23:06,386 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.36, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:06.381609"}
+2026-06-16 11:23:11,483 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.7, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:11.478898"}
+2026-06-16 11:23:16,487 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.99, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:16.481960"}
+2026-06-16 11:23:21,493 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.11, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:21.484255"}
+2026-06-16 11:23:26,492 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.85, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:26.486801"}
+2026-06-16 11:23:31,494 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.74, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:31.489163"}
+2026-06-16 11:23:36,497 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.2, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:36.492032"}
+2026-06-16 11:23:41,593 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.37, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:41.588448"}
+2026-06-16 11:23:46,595 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.37, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:46.590757"}
+2026-06-16 11:23:51,597 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.97, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:51.592976"}
+2026-06-16 11:23:56,599 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.55, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:23:56.595125"}
+2026-06-16 11:24:01,602 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.13, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:01.597291"}
+2026-06-16 11:24:06,604 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.0, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:06.599567"}
+2026-06-16 11:24:11,701 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.78, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:11.695603"}
+2026-06-16 11:24:16,704 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.8, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:16.699415"}
+2026-06-16 11:24:21,708 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.09, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:21.701561"}
+2026-06-16 11:24:26,708 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.49, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:26.703785"}
+2026-06-16 11:24:31,711 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.02, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:31.706181"}
+2026-06-16 11:24:36,713 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.25, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:36.708325"}
+2026-06-16 11:24:41,809 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.42, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:41.804312"}
+2026-06-16 11:24:46,811 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.02, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:46.806540"}
+2026-06-16 11:24:51,813 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.98, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:51.809018"}
+2026-06-16 11:24:53,178 INFO Metadata refresh (node_id=1)
+2026-06-16 11:24:53,321 INFO Updated metadata: ClusterMetadata(brokers: 1, topics: 1, coordinators: 1)
+2026-06-16 11:24:56,816 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 77.53, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:24:56.811126"}
+2026-06-16 11:25:01,818 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.16, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:01.813255"}
+2026-06-16 11:25:06,820 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.06, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:06.815613"}
+2026-06-16 11:25:11,920 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.47, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:11.914950"}
+2026-06-16 11:25:16,922 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.0, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:16.917446"}
+2026-06-16 11:25:21,924 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.94, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:21.919556"}
+2026-06-16 11:25:26,926 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 72.01, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:26.921852"}
+2026-06-16 11:25:31,929 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.69, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:31.923883"}
+2026-06-16 11:25:36,931 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.79, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:36.926181"}
+2026-06-16 11:25:42,040 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.05, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:42.035292"}
+2026-06-16 11:25:47,042 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.67, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:47.037788"}
+2026-06-16 11:25:52,044 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.82, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:52.040308"}
+2026-06-16 11:25:57,047 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 78.37, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:25:57.042326"}
+2026-06-16 11:26:02,049 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.79, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:02.044661"}
+2026-06-16 11:26:07,051 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.32, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:07.046811"}
+2026-06-16 11:26:12,150 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 73.49, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:12.145304"}
+2026-06-16 11:26:17,153 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 79.57, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:17.148040"}
+2026-06-16 11:26:22,155 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 75.53, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:22.150332"}
+2026-06-16 11:26:27,158 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.2, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:27.152482"}
+2026-06-16 11:26:32,159 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 76.28, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:32.154841"}
+2026-06-16 11:26:37,162 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 70.54, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:37.157020"}
+2026-06-16 11:26:42,265 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 71.99, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:42.261015"}
+2026-06-16 11:26:47,268 INFO {"event": "telemetry_saved", "source": "consumer", "tag_name": "reactor_temp", "value": 74.11, "day": "2026-06-16", "status": "success", "timestamp": "2026-06-16T11:26:47.263247"}

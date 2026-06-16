@@ -31,15 +31,7 @@ jobs:
         run: |
           cd app
           pytest tests/
-
-      - name: Build consumer image
-        run: docker build ./consumer
-
-      - name: Build app image
-        run: docker build ./app
-
-      - name: Build simulation image
-        run: docker build ./simulation  
+ 
 
 
   build-and-push:
@@ -60,19 +52,19 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build consumer image
-        run: docker build ./consumer -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest
+        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest ./consumer
 
       - name: Push consumer image
         run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest
 
       - name: Build simulation image
-        run: docker build ./simulation -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest
+        run: docker build  -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest ./simulation
 
       - name: Push simulation image
         run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest  
 
       - name: Build app image
-        run: docker build ./app -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest
+        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest ./app
 
       - name: Push app image
         run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest  

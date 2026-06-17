@@ -52,22 +52,40 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build consumer image
-        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest ./consumer
+        run: |
+          docker build \
+            -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest \
+            -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:${{ github.sha }} \
+             ./consumer
 
       - name: Push consumer image
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest
+        run: |
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-consumer:${{ github.sha }}
 
       - name: Build simulation image
-        run: docker build  -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest ./simulation
+        run: |
+          docker build \
+            -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest \
+            -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:${{ github.sha }} \
+             ./simulation
 
       - name: Push simulation image
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest  
+        run: |
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-simulation:${{ github.sha }} 
 
       - name: Build app image
-        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest ./app
+        run: |
+          docker build \
+            -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest \
+            -t ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:${{ github.sha }} \
+            ./app
 
       - name: Push app image
-        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest  
+        run: |
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:latest
+          docker push ${{ secrets.DOCKERHUB_USERNAME }}/telemetry-api:${{ github.sha }}  
 
       - name: Validate compose
         run: docker compose config  

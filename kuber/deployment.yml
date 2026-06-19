@@ -3,6 +3,7 @@ kind: Deployment
 
 metadata:
   name: telemetry-api
+  namespace: telemetry
 
 spec:
   replicas: 2

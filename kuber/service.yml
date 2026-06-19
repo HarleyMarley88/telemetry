@@ -3,6 +3,7 @@ kind: Service
 
 metadata:
   name: telemetry-app-service
+  namespace: telemetry
 
 spec:
   selector:

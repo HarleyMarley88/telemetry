@@ -1,16 +1,14 @@
 apiVersion: v1
 kind: Service
-
 metadata:
-  name: cassandra
+  name: kafka
   namespace: telemetry
-
 spec:
   clusterIP: None
-
   selector:
-    app: cassandra
-
+    app: kafka
   ports:
-  - port: 9042
-    targetPort: 9042
+    - name: broker
+      port: 9092
+    - name: controller
+      port: 9093

@@ -3,6 +3,7 @@ kind: ConfigMap
 
 metadata:
   name: telemetry-config
+  namespace: telemetry
 
 data:
   LOG_LEVEL: INFO

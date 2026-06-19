@@ -1,12 +1,14 @@
 apiVersion: apps/v1
-kind: Deployment
+kind: StatefulSet
 
 metadata:
   name: cassandra
   namespace: telemetry
 
 spec:
-  replicas: 1
+  serviceName: cassandra
+
+  replicas: 3
 
   selector:
     matchLabels:
@@ -20,6 +22,7 @@ spec:
     spec:
       containers:
       - name: cassandra
+
         image: cassandra:4.1
 
         ports:
@@ -28,3 +31,19 @@ spec:
         env:
         - name: CASSANDRA_CLUSTER_NAME
           value: telemetry-cluster
+
+        volumeMounts:
+        - name: cassandra-data
+          mountPath: /var/lib/cassandra
+
+  volumeClaimTemplates:
+  - metadata:
+      name: cassandra-data
+
+    spec:
+      accessModes:
+      - ReadWriteOnce
+
+      resources:
+        requests:
+          storage: 5Gi

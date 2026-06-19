@@ -4,7 +4,7 @@ from datetime import datetime
 from prometheus_client import start_http_server
 from prometheus_client import Counter
 from prometheus_client import Gauge
-
+import os
 import json
 import logging
 import threading
@@ -16,6 +16,9 @@ logging.basicConfig(
     format="%(asctime)s %(levelname)s %(message)s",
     force=True
 )
+
+KAFKA_BOOTSTRAP = os.getenv("KAFKA_BOOTSTRAP")
+CASSANDRA_HOST = os.getenv("CASSANDRA_HOST")
 
 KAFKA_LAG = Gauge("kafka_consumer_lag", "Kafka consumer lag")
 
@@ -35,7 +38,7 @@ logger = logging.getLogger("telemetry")
 
 logger.info("Consumer started")
 
-cluster = Cluster(["cassandra"])
+cluster = Cluster([CASSANDRA_HOST])
 
 session = cluster.connect("demo")
 
@@ -43,7 +46,7 @@ start_http_server(8001)
 
 consumer = KafkaConsumer(
     "telemetry",
-    bootstrap_servers="kafka:9092",
+    bootstrap_servers=KAFKA_BOOTSTRAP,
     auto_offset_reset="latest",
     group_id="telemetry-group"
 )

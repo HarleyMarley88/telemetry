@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: telemetry-api
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: telemetry-api
+
+  template:
+    metadata:
+      labels:
+        app: telemetry-api
+
+    spec:
+      containers:
+      - name: telemetry-api
+        image: harleymarley88/telemetry-api:latest
+
+        ports:
+        - containerPort: 8000
+
+        envFrom:
+        - configMapRef:
+            name: telemetry-config
+
+        - secretRef:
+            name: telemetry-secret    

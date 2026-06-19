@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: telemetry-config
+
+data:
+  LOG_LEVEL: INFO
+  KAFKA_BOOTSTRAP: kafka:9092
+  CASSANDRA_HOST: cassandra

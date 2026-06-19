@@ -1,5 +1,5 @@
 from kafka import KafkaProducer
-
+import os
 from datetime import datetime
 
 import json
@@ -7,8 +7,10 @@ import random
 import time
 import logging
 
+KAFKA_BOOTSTRAP = os.getenv("KAFKA_BOOTSTRAP")
+
 producer = KafkaProducer(
-    bootstrap_servers="kafka:9092",
+    bootstrap_servers=KAFKA_BOOTSTRAP,
     value_serializer=lambda v: json.dumps(v).encode("utf-8")
 )
 
